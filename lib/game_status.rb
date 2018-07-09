@@ -24,6 +24,6 @@ WIN_COMBINATIONS.each do |win_combination|
   win_index_3 = win_combination[2]
   
   win_combination.each do |item|
-    
+    position_1 = board[win_index_1]
     
     
