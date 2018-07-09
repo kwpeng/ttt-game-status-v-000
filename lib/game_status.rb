@@ -36,7 +36,7 @@ WIN_COMBINATIONS.each do |win_combination|
 end
 end
 
-won?()
+won?[" ", " ", " ", " ", " ", " ", " ", " ", " "]
     
     
     
