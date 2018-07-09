@@ -17,4 +17,5 @@ WIN_COMBINATIONS = [
         ]
         
 WIN_COMBINATIONS.each do |sub_array|
-  
+  sub_array.each do |item|
+    
