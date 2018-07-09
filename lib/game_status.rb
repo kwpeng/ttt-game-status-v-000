@@ -16,4 +16,4 @@ WIN_COMBINATIONS = [
   [6,4,2]
         ]
         
-WIN_COMBINATIONS each.do
+WIN_COMBINATIONS.each do 
