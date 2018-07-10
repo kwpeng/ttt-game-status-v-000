@@ -67,6 +67,7 @@ def winner(board)
     return "X"
     elsif win_cominbation[0] = "0"
     return "0"
+  end
   else 
     return
   end
