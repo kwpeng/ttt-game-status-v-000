@@ -38,7 +38,7 @@ end
 board = ["X", "O", "X", "O", "X", "O", "X", "X", "O"]
 
    puts won?(board) 
-   puts win_combination
+   puts win_combinations
     
     
     
