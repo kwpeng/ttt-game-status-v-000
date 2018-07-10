@@ -73,6 +73,5 @@ def winner(board)
   end
 end
   
-draw_board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
-puts winner(draw_board)
+
 
