@@ -39,11 +39,7 @@ WIN_COMBINATIONS.each do |win_combination|
   end
 
 
-
-board = [" ", " ", " ", "X", "X", "X", " ", " ", " "]
-puts won?(board) 
  
-    
 def full?(board)
 
 board.each do |index|
@@ -54,4 +50,5 @@ board.each do |index|
   end
   end
 end
+    
     
