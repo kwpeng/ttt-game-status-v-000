@@ -37,7 +37,8 @@ WIN_COMBINATIONS.each do |win_combination|
 end
 end
 
-puts won?([" ", " ", " ", " ", " ", " ", " ", " ", " "])
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+puts won?(board)
     
     
     
