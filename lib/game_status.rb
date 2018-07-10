@@ -39,17 +39,10 @@ WIN_COMBINATIONS.each do |win_combination|
   end
 
 
- 
 def full?(board)
-
-board.each do |index|
-  if index == "X" || index == "O"
-    return true
-  else
-    return false
-  end
-  end
+  board.all? {|index| index == "X" || index == "O"}
 end
+
     
     
 full_board = [" ", "O", "X", "O", "X", "X", "O", "X", "O"]
