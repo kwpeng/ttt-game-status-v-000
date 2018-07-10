@@ -44,6 +44,14 @@ board = [" ", " ", " ", "X", "X", "X", " ", " ", " "]
 puts won?(board) 
  
     
+def full?(board)
+
+board.each do |index|
+  if index == "X" || index == "O"
+    return true
+  else
+    return false
     
-    
+  end
+end
     
