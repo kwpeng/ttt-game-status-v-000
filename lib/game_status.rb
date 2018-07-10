@@ -61,17 +61,16 @@ def over?(board)
   end
 end
 
-def winner(board)
-  if won?(board) != false
-    if won?(board)[0] = "X" 
-    return "X"
-    elsif won?(board)[0] = "O"
-    return "O"
-  end
-  else 
+def winner (board)
+  index = []
+  index = won?(board)
+  if index == false
     return nil
+  else
+    if board[index[0]] == "X"
+      return "X"
+    else
+      return "O"
+    end
   end
 end
-  
-o_win_center_column = ["X", "O", " ", " ", "O", " ", " ", "O", "X"]
-puts winner(o_win_center_column)
