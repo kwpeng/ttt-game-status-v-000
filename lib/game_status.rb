@@ -30,18 +30,19 @@ WIN_COMBINATIONS.each do |win_combination|
     
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
     return win_combination
+    
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return win_combination
+      
     else
    return false
   end
+  
 end
 
 board = [" ", " ", " ", "X", "X", "X", " ", " ", " "]
-
-   puts won?(board) 
-  
-  
+puts won?(board) 
+ 
     
     
     
