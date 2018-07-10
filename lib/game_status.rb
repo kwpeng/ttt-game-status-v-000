@@ -37,8 +37,7 @@ WIN_COMBINATIONS.each { |win_combination|
     
    return false
   end
-  
-end
+
 
 
 board = [" ", " ", " ", "X", "X", "X", " ", " ", " "]
