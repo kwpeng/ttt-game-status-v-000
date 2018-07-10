@@ -47,3 +47,13 @@ end
     
 full_board = [" ", "O", "X", "O", "X", "X", "O", "X", "O"]
 puts full?(full_board)    
+
+
+
+def draw?(board)
+  if won?(board) = false && full?(board) = true 
+    return true 
+  else
+    return false 
+  end
+end
