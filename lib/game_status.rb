@@ -37,7 +37,7 @@ WIN_COMBINATIONS.each do |win_combination|
   end
    return false
   end
-end
+
 
 
 board = [" ", " ", " ", "X", "X", "X", " ", " ", " "]
