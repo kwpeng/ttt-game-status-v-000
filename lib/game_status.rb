@@ -35,10 +35,11 @@ WIN_COMBINATIONS.each do |win_combination|
   end
 end
 end
+
 board = ["X", "O", "X", "O", "X", "O", "X", "X", "O"]
 
    puts won?(board) 
-   puts WIN_COMBINATIONS
+  
     
     
     
