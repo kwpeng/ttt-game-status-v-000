@@ -32,7 +32,7 @@ WIN_COMBINATIONS.each do |win_combination|
     return win_combination
     
     else
-    false
+    return false
   end
 end
 end
