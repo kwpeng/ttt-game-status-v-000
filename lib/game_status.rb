@@ -61,5 +61,17 @@ def over?(board)
   end
 end
 
+def winner(board)
+  if won?(board) != false
+    if win_combination[0] = "X" 
+    return "X"
+    elsif win_cominbation[0] = "0"
+    return "0"
+  else 
+    return
+  end
+end
+  
 draw_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 puts over?(draw_board)
+
