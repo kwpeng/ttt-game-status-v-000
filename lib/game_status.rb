@@ -51,7 +51,7 @@ puts full?(full_board)
 
 
 def draw?(board)
-  if won?(board) = false && full?(board) = true 
+  if won?(board) == false && full?(board) == true 
     return true 
   else
     return false 
