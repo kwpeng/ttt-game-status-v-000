@@ -73,3 +73,5 @@ def winner(board)
   end
 end
   
+o_win_center_column = ["X", "O", " ", " ", "O", " ", " ", "O", "X"]
+puts winner(o_win_center_column)
