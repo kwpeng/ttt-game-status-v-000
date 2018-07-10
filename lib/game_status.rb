@@ -43,11 +43,6 @@ def full?(board)
   board.all? {|index| index == "X" || index == "O"}
 end
 
-    
-    
-full_board = [" ", "O", "X", "O", "X", "X", "O", "X", "O"]
-puts full?(full_board)    
-
 
 
 def draw?(board)
@@ -58,6 +53,13 @@ def draw?(board)
   end
 end
 
+def over?(board)
+  if won? == true || draw?(board) == true || full?(board) = true
+    return true
+  else
+    return false
+  end
+end
 
 draw_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 puts draw?(draw_board)
