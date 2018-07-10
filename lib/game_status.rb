@@ -63,7 +63,6 @@ end
 
 def winner(board)
   if won?(board) != false
-    return win_combination
     if win_combination[0] = "X" 
     return "X"
     elsif win_cominbation[0] = "0"
