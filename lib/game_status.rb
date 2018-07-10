@@ -63,9 +63,9 @@ end
 
 def winner(board)
   if won?(board) != false
-    if win_combination[0] = "X" 
+    if won?(board)[0] = "X" 
     return "X"
-    elsif win_cominbation[0] = "0"
+    elsif won?(board)n[0] = "0"
     return "0"
   end
   else 
