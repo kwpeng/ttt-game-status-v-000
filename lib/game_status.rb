@@ -52,5 +52,5 @@ board.each do |index|
 end
     
     
-full_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+full_board = [" ", "O", "X", "O", "X", "X", "O", "X", "O"]
 puts full?(full_board)    
